@@ -1,0 +1,108 @@
+body{
+	background-image: url("images/Bg.jpg");
+}
+.topnav {
+	overflow: hidden;
+	background-color: rgb(0, 0, 0);
+	position:sticky;
+	top: 0;
+    width: 100%;
+  } 
+  .topnav a {
+	float: left;
+	color: #dccece;
+	font-family: cursive;
+	text-align: center;
+	padding: 10px 14px;
+	text-decoration: none;
+	font-size: 15px;
+  }
+  
+  .topnav a:hover {
+	background-color: rgb(223, 196, 196);
+	color: rgb(30, 13, 13);
+  }
+
+  .topnav-right {
+	float: right;
+  }
+
+  .row::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
+  .imgDiv{
+	float: left;
+	width: 50%;
+	padding: 5px;
+  }
+  .Divmenu{
+	float: right;
+	width: 50%;
+	padding: 160px;
+	color: honeydew;
+	font-size: 25px;
+	font-family: cursive;
+  }
+  #ListadeMenu{
+	background-color:#f5c71a;
+	color:black; 
+	width: 200px;
+	border: none;
+  }
+
+  .newRow::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+  .block1{
+	float: left;
+	width: 20%;
+	padding: 5px;
+  }
+  .block2{
+	float: left;
+	width: 80%;
+	padding: 5px;
+	color: honeydew;
+	font-size: 25px;
+	font-family: cursive;
+  }
+
+  #addToppings{
+	
+	width:170px;
+	height:100px;
+	border: none;
+	background-color:#cf2844;
+	color:rgb(10, 7, 6);
+	font-size: 17px;
+	font-family: cursive;
+  }
+
+  #addItem {
+	font-family: cursive;
+	font-size: 15px;
+	line-height: 20px;
+	width: 80%;
+	height: 50px;
+	color: #ffffff;
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgb(223, 205, 205);
+    outline: none;
+ }
+
+[placeholder]:focus::-webkit-input-placeholder {
+    transition: text-indent 0.4s 0.4s ease; 
+    text-indent: -100%;
+	opacity: 1;
+	color: white;
+ }
+
+
+
+
